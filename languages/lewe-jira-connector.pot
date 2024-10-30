@@ -1,0 +1,971 @@
+# Copyright (C) 2024 George Lewe
+# This file is distributed under the same license as the Lewe Jira Connector plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lewe Jira Connector 2.7.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lewe-jira-connector\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-30T19:12:49+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: lewe-jira-connector\n"
+
+#. Plugin Name of the plugin
+msgid "Lewe Jira Connector"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://lewe.gitbook.io/lewe-jira-connector-for-wordpress/"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Lewe Jira Connector plugin connects to a Jira host (Server, Data Center or Cloud) and displays information from there on your WordPress site."
+msgstr ""
+
+#. Author of the plugin
+msgid "George Lewe"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.lewe.com"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:112
+msgctxt "Post Type General Name"
+msgid "Jira Hosts"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:113
+msgctxt "Post Type Singular Name"
+msgid "Jira Host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:114
+msgid "Jira Hosts"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:115
+#: admin/class-lewe-jira-connector-admin.php:142
+msgid "Jira Host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:116
+msgid "Jira Host Archives"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:117
+msgid "Jira Host Attributes"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:118
+msgid "Parent Host:"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:119
+msgid "All Hosts"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:120
+msgid "Add New Host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:121
+msgid "Add New"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:122
+msgid "New Host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:123
+msgid "Edit Host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:124
+msgid "Update Host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:125
+msgid "View Host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:126
+msgid "View Hosts"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:127
+msgid "Search Host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:128
+msgid "Not found"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:129
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:130
+msgid "Featured Image"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:131
+msgid "Set featured image"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:132
+msgid "Remove featured image"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:133
+msgid "Use as featured image"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:134
+msgid "Insert into host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:135
+msgid "Uploaded to this host"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:136
+msgid "Hosts list"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:137
+msgid "Hosts list navigation"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:138
+msgid "Filter hosts list"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:143
+msgid "Jira host details"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:258
+msgid "Settings"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:276
+msgid "Support"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:277
+#: admin/partials/lewe-jira-connector-admin-license.php:40
+#: admin/partials/lewe-jira-connector-admin-options.php:144
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:278
+msgid "Rate and Review!"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:323
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:48
+#: public/class-lewe-jira-connector-public.php:144
+#: public/class-lewe-jira-connector-public.php:871
+msgid "Description"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:324
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:56
+msgid "URL"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:325
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:42
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:64
+#: public/class-lewe-jira-connector-public.php:260
+#: public/class-lewe-jira-connector-public.php:381
+#: public/class-lewe-jira-connector-public.php:667
+#: public/class-lewe-jira-connector-public.php:766
+#: public/class-lewe-jira-connector-public.php:1077
+msgid "Username"
+msgstr ""
+
+#: admin/class-lewe-jira-connector-admin.php:326
+msgid "Host ID"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:38
+#: admin/partials/lewe-jira-connector-admin-options.php:142
+msgid "Display Jira issue information on your WordPress website"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:41
+#: admin/partials/lewe-jira-connector-admin-options.php:145
+msgid "Donate"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:49
+msgid "Lewe Jira Connector License"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:171
+msgid "Your Connector Jira Server license has expired"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:171
+msgid "days ago. Please renew your license within"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:171
+msgid "days"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:180
+#: admin/partials/lewe-jira-connector-admin-license.php:182
+#: admin/partials/lewe-jira-connector-admin-license.php:186
+#: admin/partials/lewe-jira-connector-admin-license.php:192
+msgid "Deactivate"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:180
+#: admin/partials/lewe-jira-connector-admin-license.php:189
+msgid "Renew"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:186
+msgid "Unblock"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:192
+#: admin/partials/lewe-jira-connector-admin-license.php:207
+msgid "Activate"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:195
+msgid "Register"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:198
+msgid "Remove License"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:201
+msgid "Missing License"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:203
+msgid "Please enter the license key for this plugin. You were given a license key when you purchased this item."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:207
+msgid "Get a license"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-license.php:212
+#: includes/class-lewe-jira-connector-license.php:138
+msgid "License Key"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:42
+msgid "Your Lewe Jira Connector license is blocked. Please renew your license to enable additional features."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:46
+msgid "Your Lewe Jira Connector license has expired more than 30 days ago. Please renew your license to enable additional features."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:50
+msgid "Your Lewe Jira Connector license is invalid. Please get a valid license to enable additional features."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:54
+msgid "Your Lewe Jira Connector license is pending. Please activate your license to enable additional features."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:58
+msgid "Your Lewe Jira Connector license is not registered for this domain. Please activate your license to re-enable additional features."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:63
+msgid "Please consider getting a Lewe Jira Connector license to enable additional feature."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:118
+msgid "Success"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:119
+msgid "The changes were saved successfully."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:122
+#: public/class-lewe-jira-connector-public.php:1080
+msgid "Error"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:123
+msgid "An error occurred while trying to save your settings."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:128
+msgid "Information"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:129
+msgid "Nothing was saved because no value was changed."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:179
+msgid "Jira Issue Button"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:180
+msgid "Jira Issue Inline"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:181
+msgid "Jira Issue Panel"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:182
+msgid "Jira Filter"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:183
+msgid "Colors"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:184
+msgid "Options"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:204
+msgid "The following default options apply when you chose the button format for the jco-issue shortcode. You can overwrite these values with custom shortcode parameters. See the documentation for more details."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:209
+msgid "Default Button Color"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:217
+#: admin/partials/lewe-jira-connector-admin-options.php:299
+#: admin/partials/lewe-jira-connector-admin-options.php:374
+msgid "Jira Status Category"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:227
+msgid "Select the color type of the button. The default is \"Jira Status Category\". You can overwrite the status category style on the Style tab of this page."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:231
+msgid "Default Button Style"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:233
+msgid "Outlined Button"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:234
+msgid "Check to use an outlined button style (no fill color)"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:238
+#: admin/partials/lewe-jira-connector-admin-options.php:313
+msgid "Default Summary Length"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:246
+msgid "Enter the number of characters of the Jira issue summary to display. (Default = "
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:250
+#: admin/partials/lewe-jira-connector-admin-options.php:325
+#: admin/partials/lewe-jira-connector-admin-options.php:409
+#: admin/partials/lewe-jira-connector-admin-options.php:507
+msgid "Link to Jira"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:252
+#: admin/partials/lewe-jira-connector-admin-options.php:327
+#: admin/partials/lewe-jira-connector-admin-options.php:411
+#: admin/partials/lewe-jira-connector-admin-options.php:509
+msgid "Link issue key to Jira"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:253
+#: admin/partials/lewe-jira-connector-admin-options.php:328
+#: admin/partials/lewe-jira-connector-admin-options.php:412
+msgid "Select this option to link the issue key to the actual issue in Jira."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:286
+msgid "The following default options apply when you chose the inline format for the jco-issue shortcode. You can overwrite these values with custom shortcode parameters. See the documentation for more details."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:291
+msgid "Default Lozenge Color"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:309
+msgid "Select the background color of the inline lozenge. The default is \"light\". You can overwrite the status category style on the Colors tab of this page."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:321
+msgid "Enter the number of characters of the Jira issue summary to display in the lozenge. Set to 0 for none. (Default = "
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:361
+msgid "The following default options apply when you chose the panel format for the jco-issue shortcode. You can overwrite these values with custom shortcode parameters. See the documentation for more details."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:366
+msgid "Panel Color"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:384
+msgid "Select the color type of the panel. The default is \"Jira Status Category\". You can overwrite the status category style on the Style tab of this page."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:388
+msgid "Panel Body"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:390
+#: admin/partials/lewe-jira-connector-admin-options.php:455
+msgid "Show Summary"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:391
+#: admin/partials/lewe-jira-connector-admin-options.php:456
+msgid "Show Description"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:392
+msgid "Show Last Comment"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:393
+msgid "Select the issue fields to show in the panel body. The panel header will always show the issue key and the status."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:397
+msgid "Description characters"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:405
+msgid "Enter the nmuber of characters of the Jira issue description to display. (Default = "
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:445
+msgid "The following default options apply when you use the jco-filter shortcode. You can overwrite these values with custom shortcode parameters. See the documentation for more details."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:450
+msgid "Jira Fields"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:452
+msgid "Show Issue Type (as icon)"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:453
+msgid "Show Priority (as icon)"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:454
+msgid "Show Issue Key"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:457
+msgid "Show Reporter"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:458
+msgid "Show Assignee"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:459
+msgid "Show Created Date"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:460
+msgid "Show Due Date"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:461
+msgid "Show Affects Version/s"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:462
+msgid "Show Fix Version/s"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:463
+msgid "Show Resolution"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:464
+msgid "Show Status"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:465
+msgid "Select the Jira fields to show in the filter result table."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:469
+msgid "Color Rows"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:471
+msgid "Color rows based on status category"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:472
+msgid "Select this option to color each row based on the status category of the issue. The color will have a transparency set."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:476
+msgid "Start At"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:484
+msgid "Enter the start number of the results to show. This is usually 0 to start with the first match. To start at the 51st match you would need to enter 50. (Default = "
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:488
+msgid "Maximum Results"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:496
+msgid "Enter the maximum number of the results to show. (Default = "
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:500
+msgid "Show Count"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:502
+msgid "Show issue count above the result table"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:503
+msgid "Select this option to show the issue count above the result table."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:510
+msgid "Select this option to link the issue keys to the actual issue in Jira."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:528
+msgid "You can select a custom color for the Jira status categories here."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:533
+msgid "To Do Color"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:550
+msgid "Select the color style of the \"To Do\" status category (Default = Danger)"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:554
+msgid "In Progress Color"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:571
+msgid "Select the color style of the \"In Progress\" status category (Default = Primary)"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:575
+msgid "Done Color"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:592
+msgid "Select the color style of the \"Done\" status category (Default = Success)"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:618
+msgid "Set general options for this plugin."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:623
+msgid "Remove data on uninstall"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:625
+msgid "Yes"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:626
+msgid "If checked, all plugin options and all Jira host posts will be deleted from the database when the plugin is deleted (This does not apply when the plugin is just deactivated)."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-options.php:632
+msgid "Save Changes"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:36
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:51
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:60
+msgid "Jira Login Test"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:37
+msgid "Connection and login to the JIRA server successful."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:38
+msgid "Jira Server Title"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:39
+msgid "Jira BaseURL"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:40
+msgid "Jira Version"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:41
+msgid "Jira Build"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:43
+msgid "Display Name"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:44
+#: includes/class-lewe-jira-connector-license.php:126
+msgid "E-mail"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:52
+msgid "The connection or authentication for this host failed. Please check the parameters and also whether a login captcha is required for this account"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-admin-test-jira-login.php:61
+msgid "The server and/or login parameters are incomplete"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:51
+msgid "Enter a description for this Jira host."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:59
+msgid "Enter the base URL for this Jira host."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:67
+msgid "Enter the username for this Jira host."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:72
+msgid "Password"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:75
+msgid "Enter the password (Jira Server, Jira Data Center) or the"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:76
+msgid "API token"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:77
+msgid "(Jira Cloud) for the username you specified."
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:83
+msgid "Personal Access Token (PAT)"
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:86
+msgid "If this host requires a personal access token (PAT) instead of basic authentication for API calls, enter yours here. Leave this field empty for basic authentication with your username and password. Read more about "
+msgstr ""
+
+#: admin/partials/lewe-jira-connector-jira-host-meta-box.php:87
+msgid "Personal Access Tokens"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:107
+msgid "Active License"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:108
+msgid "This is an active license for this domain. Awesome!"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:109
+msgid "This is an active license but not registered for this domain."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:110
+msgid "The following error occurred while trying to activate your license:"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:111
+msgid "Your license was successfully activated for this domain."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:112
+msgid "The following error occurred while trying to register your domain to your license:"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:113
+msgid "Your domain was successfully registered to your license."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:114
+msgid "The following error occurred while trying to deregister your domain from your license:"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:115
+msgid "Your domain was successfully deregistered from your license."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:116
+msgid "Blocked License"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:117
+msgid "This license key is blocked."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:118
+msgid "Please contact your administrator to unblock this license."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:119
+msgid "Close this message"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:120
+msgid "Company"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:121
+msgid "Date Created"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:122
+msgid "Date Expiry"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:123
+msgid "Date Renewed"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:124
+msgid "days left"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:125
+msgid "License Details"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:127
+msgid "Expired License"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:128
+msgid "This license key has expired."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:129
+msgid "Please contact your administrator to renew this license."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:130
+msgid "License Expiry Warning"
+msgstr ""
+
+#. translators: %d: Number of days untile license expiry
+#: includes/class-lewe-jira-connector-license.php:132
+msgid "Your license will expire in %d days."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:133
+msgid "Please contact your administrator to renew this license in time."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:134
+msgid "Invalid License"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:135
+msgid "This license key is invalid."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:136
+msgid "This instance is unregistered or a ucfirst license key was not entered and activated yet."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:137
+msgid "Please contact the administrator to obtain a valid license."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:139
+msgid "Licensee"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:140
+msgid "Maximum Allowed Domains"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:141
+msgid "Pending License"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:142
+msgid "This license is registered but not activated yet."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:143
+msgid "Please contact your administrator to activate this license."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:144
+msgid "Registered Domains"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:145
+#: public/class-lewe-jira-connector-public.php:152
+msgid "Status"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:146
+msgid "Product"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:147
+msgid "Unregistered License"
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:148
+msgid "The license key of this instance is not registered for this domain."
+msgstr ""
+
+#: includes/class-lewe-jira-connector-license.php:149
+msgid "Please contact the administrator to register this domain or obtain a valid license."
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:142
+msgid "Key"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:143
+msgid "Summary"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:145
+msgid "Reporter"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:146
+msgid "Assignee"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:147
+msgid "Created"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:148
+msgid "Due Date"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:149
+msgid "Affects Version/s"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:150
+msgid "Fix Version/s"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:151
+msgid "Resolution"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:259
+#: public/class-lewe-jira-connector-public.php:380
+#: public/class-lewe-jira-connector-public.php:666
+#: public/class-lewe-jira-connector-public.php:765
+#: public/class-lewe-jira-connector-public.php:1076
+msgid "Host"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:261
+#: public/class-lewe-jira-connector-public.php:382
+msgid "JQL"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:263
+#: public/class-lewe-jira-connector-public.php:384
+#: public/class-lewe-jira-connector-public.php:769
+msgid "Warning"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:264
+msgid "Jira Issue Filter: No fields specified"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:265
+msgid "Check the Jira Issue Filter tab in the Lewe Jira Connector options and make sure that at least one field is checked on."
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:265
+msgid "Alternatively, you can specify fields in the shortcode."
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:387
+#: public/class-lewe-jira-connector-public.php:772
+msgid "No response from host. Are your Jira host settings ok?"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:390
+#: public/class-lewe-jira-connector-public.php:775
+msgid "Errors received from host:"
+msgstr ""
+
+#. translators: %4$d: Sequential number of last issue on this page
+#: public/class-lewe-jira-connector-public.php:412
+msgid "Showing %1$d of %2$d results (match %3$d to %4$d)"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:551
+#: public/class-lewe-jira-connector-public.php:552
+msgid "Unresolved"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:671
+#: public/class-lewe-jira-connector-public.php:1081
+msgid "Jira Connection Failed"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:672
+#: public/class-lewe-jira-connector-public.php:1082
+msgid "Please check the JIRA host settings."
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:678
+#: public/class-lewe-jira-connector-public.php:1088
+msgid "Invalid Jira host ID"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:767
+msgid "Issue key"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:872
+msgid "Last Comment"
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:955
+msgid "Go to issue..."
+msgstr ""
+
+#: public/class-lewe-jira-connector-public.php:1105
+#: public/class-lewe-jira-connector-public.php:1109
+#: public/class-lewe-jira-connector-public.php:1113
+#: public/class-lewe-jira-connector-public.php:1118
+msgid "Your "
+msgstr ""

@@ -1,0 +1,1 @@
+php.exe D:/wp-cli.phar i18n make-pot . languages/lewe-jira-connector.pot --slug=lewe-jira-connector --include="*.php,admin/*.php,admin/partials/*.php,includes/*.php,public/*.php,public/partials/*.php"
